@@ -1,0 +1,26 @@
+Requirements to run this code are as follows:
+
+Python Environment
+Python Version: Ensure you're running Python 3.6 or higher. This code uses f-strings and other Python 3 features that might not be available in earlier versions.
+Required Libraries
+
+The following Python libraries would need to be installed:
+
+1.) requests: For making HTTP requests.
+2.) beautifulsoup4: For parsing HTML and XML documents.
+3.) csv: Standard library for handling CSV files (already included in Python’s standard library).
+
+Directory and File Handling
+Directory Creation: The script creates directories to store images and CSV files. It expects to be able to create and write to directories and files in the working directory where the script is run.
+
+Internet Access
+Web Scraping: The script fetches data from https://books.toscrape.com/. Ensure that you have internet access, and that the website is reachable from your network.
+
+Dependencies
+Ensure that the script is run in an environment where it has permission to write files and make network requests. If running in a restricted environment, you might need to adjust permissions or configurations.
+
+Error Handling and Debugging
+The script has basic error handling with try and except blocks for network requests and file operations. If the script encounters issues, it will print out error messages to help with debugging.
+
+Additional Considerations
+Character Encoding: The script handles text encoding with utf-8, which should be compatible with most text data. Ensure your environment supports this encoding. Web Structure Changes: The script is tailored for the specific structure of the books.toscrape.com website. If the structure of the site changes, you may need to update the code accordingly.
