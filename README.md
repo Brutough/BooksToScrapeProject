@@ -6,10 +6,10 @@ The scraping of the data will use Beautiful Soup, Beautiful Soup is a Python lib
    
 # Required Libraries
 The following Python libraries would need to be installed:
-###### requests: For making HTTP requests.
-###### beautifulsoup4: For parsing HTML and XML documents.
-###### csv: Standard library for handling CSV files (already included in Python’s standard library).
-You can install the required libraries using pip:
+##### 1.) requests: For making HTTP requests.  
+##### 2.) beautifulsoup4: For parsing HTML and XML documents.  
+##### 3.) csv: Standard library for handling CSV files (already included in Python’s standard library).
+You can install the required libraries using pip:  
 pip install requests beautifulsoup4
 # Directory and File Handling
 Directory Creation: The script creates directories to store images and CSV files. It expects to be able to create and write to directories and files in the working directory where the script is run.
